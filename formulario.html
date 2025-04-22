@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form action="/login" method="POST">
+
+        <h2>Inicio Sesion</h2>
+
+        <!-- username -->
+        <label for="Nombre de Usuario">Nombre de Usuario:
+        </label>
+
+        <input type="text" placeholder="Nombre de Usuario" name="Nombre de Usuario" id="Nombre de Usuario" />
+
+        <!-- email -->
+        <input type="email" placeholder="email" name="email" />
+
+        <input type="password" placeholder="password" name="password" />
+
+        <input type="submit" value="Enviar Formulario" />
+
+        <textarea name="msj" id="msj" cols="25">
+
+        </textarea>
+        <select name="genero" id="">
+            <option value="Mujer">Mujer
+            </option>
+            <option value="Hombre">Hombre
+            </option>
+            <option value="Sin Definir">Sin Definir
+            </option>
+        </select> <br>
+        <label for="terminos-y-condiciones">
+            <input type="checkbox" name="" id="terminos-y-condiciones" />
+            Acepto los Terminos y Condiciones
+        </label>
+        <br/>
+        <input type="Submit" value="Enviar">
+    </form>
+</body>
+
+</html>
